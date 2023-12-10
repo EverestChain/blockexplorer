@@ -1,0 +1,21 @@
+{
+  "/404": "pages/404.js",
+  "/[dtag]": "pages/[dtag].js",
+  "/_app": "pages/_app.js",
+  "/_document": "pages/_document.js",
+  "/_error": "pages/_error.js",
+  "/account/[address]": "pages/account/[address].js",
+  "/accounts/[address]": "pages/accounts/[address].js",
+  "/blocks/[height]": "pages/blocks/[height].js",
+  "/blocks": "pages/blocks.js",
+  "/": "pages/index.js",
+  "/params": "pages/params.js",
+  "/proposals/[id]": "pages/proposals/[id].js",
+  "/proposals": "pages/proposals.js",
+  "/transaction/[tx]": "pages/transaction/[tx].js",
+  "/transactions/[tx]": "pages/transactions/[tx].js",
+  "/transactions": "pages/transactions.js",
+  "/validator/[address]": "pages/validator/[address].js",
+  "/validators/[address]": "pages/validators/[address].js",
+  "/validators": "pages/validators.js"
+}

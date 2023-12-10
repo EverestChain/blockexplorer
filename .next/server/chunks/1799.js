@@ -1,0 +1,112 @@
+"use strict";
+exports.id = 1799;
+exports.ids = [1799];
+exports.modules = {
+
+/***/ 91799:
+/***/ ((module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.a(module, async (__webpack_handle_async_dependencies__, __webpack_async_result__) => { try {
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(16689);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(59003);
+/* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(classnames__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var next_translate_useTranslation__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(60866);
+/* harmony import */ var next_translate_useTranslation__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_translate_useTranslation__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _material_ui_core__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(8130);
+/* harmony import */ var _material_ui_core__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_material_ui_core__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _components__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(29744);
+/* harmony import */ var _utils_format_token__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(42570);
+/* harmony import */ var _utils__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(42410);
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(20997);
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__);
+var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([_components__WEBPACK_IMPORTED_MODULE_4__]);
+_components__WEBPACK_IMPORTED_MODULE_4__ = (__webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__)[0];
+
+
+
+
+
+
+
+
+
+
+const Desktop = ({
+  className,
+  items
+}) => {
+  const {
+    t
+  } = next_translate_useTranslation__WEBPACK_IMPORTED_MODULE_2___default()('accounts');
+  const formattedItems = items.map(x => {
+    return {
+      address: /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx(_components__WEBPACK_IMPORTED_MODULE_4__/* .AvatarName */ .gj, {
+        name: x.address.name,
+        address: x.address.address,
+        imageUrl: x.address.imageUrl
+      }),
+      amount: `${(0,_utils_format_token__WEBPACK_IMPORTED_MODULE_5__/* .formatNumber */ .uf)(x.amount.value, x.amount.exponent)} ${x.amount.displayDenom.toUpperCase()}`
+    };
+  });
+  return /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx("div", {
+    className: classnames__WEBPACK_IMPORTED_MODULE_1___default()(className),
+    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsxs)(_material_ui_core__WEBPACK_IMPORTED_MODULE_3__.Table, {
+      children: [/*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_3__.TableHead, {
+        children: /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_3__.TableRow, {
+          children: _utils__WEBPACK_IMPORTED_MODULE_6__/* .columns.map */ .z.map(column => {
+            return /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_3__.TableCell, {
+              align: column.align,
+              style: {
+                width: `${column.width}%`
+              },
+              children: t(column.key)
+            }, column.key);
+          })
+        })
+      }), /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_3__.TableBody, {
+        children: formattedItems.map((row, i) => /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_3__.TableRow, {
+          children: _utils__WEBPACK_IMPORTED_MODULE_6__/* .columns.map */ .z.map(column => {
+            return /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_3__.TableCell, {
+              align: column.align,
+              style: {
+                width: `${column.width}%`
+              },
+              children: row[column.key]
+            }, `holders-row-${i}-${column.key}`);
+          })
+        }, `holders-row-${i}`))
+      })]
+    })
+  });
+};
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Desktop);
+__webpack_async_result__();
+} catch(e) { __webpack_async_result__(e); } });
+
+/***/ }),
+
+/***/ 42410:
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "z": () => (/* binding */ columns)
+/* harmony export */ });
+const columns = [{
+  key: 'address',
+  width: 50
+}, {
+  key: 'amount',
+  width: 50,
+  align: 'right'
+}];
+
+/***/ })
+
+};
+;

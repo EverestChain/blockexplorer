@@ -1,0 +1,228 @@
+{
+  "../../node_modules/next/dist/client/index.js -> ../pages/_error": {
+    "id": 62904,
+    "files": [
+      "static/chunks/2904.b5949260cc847890.js"
+    ]
+  },
+  "../components/desmos_profile/components/connections/index.tsx -> ./components/desktop": {
+    "id": 59134,
+    "files": [
+      "static/chunks/9134.7405111439d1aab8.js"
+    ]
+  },
+  "../components/desmos_profile/components/connections/index.tsx -> ./components/mobile": {
+    "id": 74569,
+    "files": [
+      "static/chunks/4569.a16d0d2926495c30.js"
+    ]
+  },
+  "../components/nav/index.tsx -> ./components/desktop": {
+    "id": 25827,
+    "files": []
+  },
+  "../components/transactions_list/index.tsx -> ./components/desktop": {
+    "id": 22643,
+    "files": [
+      "static/chunks/2643.46ffb58c2f762351.js"
+    ]
+  },
+  "../components/transactions_list/index.tsx -> ./components/mobile": {
+    "id": 59068,
+    "files": [
+      "static/chunks/9068.5d0a3bc6d77c6d84.js"
+    ]
+  },
+  "../screens/account_details/components/other_tokens/index.tsx -> ./components/desktop": {
+    "id": 21150,
+    "files": [
+      "static/chunks/1150.dc5179b4ec83ca3d.js"
+    ]
+  },
+  "../screens/account_details/components/other_tokens/index.tsx -> ./components/mobile": {
+    "id": 92184,
+    "files": [
+      "static/chunks/2184.1d103da7ed33eda8.js"
+    ]
+  },
+  "../screens/account_details/components/staking/components/delegations/index.tsx -> ./components/desktop": {
+    "id": 24186,
+    "files": [
+      "static/chunks/4186.3649681f0cb9ea45.js"
+    ]
+  },
+  "../screens/account_details/components/staking/components/delegations/index.tsx -> ./components/mobile": {
+    "id": 39235,
+    "files": [
+      "static/chunks/9235.59dc12ca5aadf111.js"
+    ]
+  },
+  "../screens/account_details/components/staking/components/redelegations/index.tsx -> ./components/desktop": {
+    "id": 90740,
+    "files": [
+      "static/chunks/740.597908aa49535314.js"
+    ]
+  },
+  "../screens/account_details/components/staking/components/redelegations/index.tsx -> ./components/mobile": {
+    "id": 7081,
+    "files": [
+      "static/chunks/7081.d92d916df72bcfed.js"
+    ]
+  },
+  "../screens/account_details/components/staking/components/unbondings/index.tsx -> ./components/desktop": {
+    "id": 15904,
+    "files": [
+      "static/chunks/5904.a3212637c3c9e56d.js"
+    ]
+  },
+  "../screens/account_details/components/staking/components/unbondings/index.tsx -> ./components/mobile": {
+    "id": 47219,
+    "files": [
+      "static/chunks/7219.f5e9d48fe5805224.js"
+    ]
+  },
+  "../screens/account_details/components/staking/index.tsx -> ./components/delegations": {
+    "id": 66482,
+    "files": []
+  },
+  "../screens/account_details/components/staking/index.tsx -> ./components/redelegations": {
+    "id": 51122,
+    "files": []
+  },
+  "../screens/account_details/components/staking/index.tsx -> ./components/unbondings": {
+    "id": 4171,
+    "files": []
+  },
+  "../screens/block_details/components/signatures/index.tsx -> ./components/desktop": {
+    "id": 42142,
+    "files": [
+      "static/chunks/2142.435eaaff695c2031.js"
+    ]
+  },
+  "../screens/block_details/components/signatures/index.tsx -> ./components/mobile": {
+    "id": 67282,
+    "files": [
+      "static/chunks/7282.d2559a2c5f20d92d.js"
+    ]
+  },
+  "../screens/blocks/index.tsx -> ./components/desktop": {
+    "id": 47900,
+    "files": [
+      "static/chunks/7900.5b244af4bf41a87f.js"
+    ]
+  },
+  "../screens/blocks/index.tsx -> ./components/mobile": {
+    "id": 33862,
+    "files": [
+      "static/chunks/3862.96584a7b3821390f.js"
+    ]
+  },
+  "../screens/home/components/blocks/index.tsx -> ./components/desktop": {
+    "id": 70167,
+    "files": [
+      "static/chunks/167.74425d258705f7a8.js"
+    ]
+  },
+  "../screens/home/components/blocks/index.tsx -> ./components/mobile": {
+    "id": 9965,
+    "files": [
+      "static/chunks/9965.6be3121b1dba551a.js"
+    ]
+  },
+  "../screens/home/components/transactions/index.tsx -> ./components/desktop": {
+    "id": 49084,
+    "files": [
+      "static/chunks/9084.5f87bde353c9d12a.js"
+    ]
+  },
+  "../screens/home/components/transactions/index.tsx -> ./components/mobile": {
+    "id": 55124,
+    "files": [
+      "static/chunks/5124.3ce1a02ad94ebdc5.js"
+    ]
+  },
+  "../screens/profile_details/components/connections/index.tsx -> ./components/desktop": {
+    "id": 97456,
+    "files": [
+      "static/chunks/7456.56c5f48cf0b148df.js"
+    ]
+  },
+  "../screens/profile_details/components/connections/index.tsx -> ./components/mobile": {
+    "id": 4900,
+    "files": [
+      "static/chunks/4900.44cb794c16b2d914.js"
+    ]
+  },
+  "../screens/proposal_details/components/deposits/index.tsx -> ./components/desktop": {
+    "id": 9267,
+    "files": []
+  },
+  "../screens/proposal_details/components/deposits/index.tsx -> ./components/mobile": {
+    "id": 25592,
+    "files": []
+  },
+  "../screens/proposal_details/components/votes/index.tsx -> ./components/desktop": {
+    "id": 4959,
+    "files": []
+  },
+  "../screens/proposal_details/components/votes/index.tsx -> ./components/mobile": {
+    "id": 72879,
+    "files": []
+  },
+  "../screens/validator_details/components/staking/components/delegations/index.tsx -> ./components/desktop": {
+    "id": 62401,
+    "files": [
+      "static/chunks/2401.0bcddd768d9eec27.js"
+    ]
+  },
+  "../screens/validator_details/components/staking/components/delegations/index.tsx -> ./components/mobile": {
+    "id": 72399,
+    "files": [
+      "static/chunks/2399.588a0f256f69df84.js"
+    ]
+  },
+  "../screens/validator_details/components/staking/components/redelegations/index.tsx -> ./components/desktop": {
+    "id": 82328,
+    "files": [
+      "static/chunks/2328.5f3e01d23697d976.js"
+    ]
+  },
+  "../screens/validator_details/components/staking/components/redelegations/index.tsx -> ./components/mobile": {
+    "id": 22825,
+    "files": [
+      "static/chunks/2825.4114fe2c73963b37.js"
+    ]
+  },
+  "../screens/validator_details/components/staking/components/unbondings/index.tsx -> ./components/desktop": {
+    "id": 7749,
+    "files": [
+      "static/chunks/7749.bec6a7b42ab678c8.js"
+    ]
+  },
+  "../screens/validator_details/components/staking/components/unbondings/index.tsx -> ./components/mobile": {
+    "id": 2560,
+    "files": [
+      "static/chunks/2560.bc39af470aa0dccc.js"
+    ]
+  },
+  "../screens/validator_details/components/staking/index.tsx -> ./components/delegations": {
+    "id": 93127,
+    "files": []
+  },
+  "../screens/validator_details/components/staking/index.tsx -> ./components/redelegations": {
+    "id": 77454,
+    "files": []
+  },
+  "../screens/validator_details/components/staking/index.tsx -> ./components/unbondings": {
+    "id": 6223,
+    "files": []
+  },
+  "../screens/validators/components/list/index.tsx -> ./components/desktop": {
+    "id": 48,
+    "files": []
+  },
+  "../screens/validators/components/list/index.tsx -> ./components/mobile": {
+    "id": 26737,
+    "files": []
+  }
+}
